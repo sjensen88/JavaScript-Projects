@@ -6,7 +6,7 @@ function addition_function() {                                  //defines and na
                                                      
 function concatenate_function() {
     var sentence = "I am learning";
-    sentence += " a lot from this course!";
+    sentence += " a lot from this course!";                     //+ operator concatenates the string variable
     document.getElementById("message").innerHTML = sentence;    //grabs the "message" element from the HTML file
 }
 
