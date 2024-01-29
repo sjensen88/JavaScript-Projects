@@ -10,3 +10,4 @@ document.write("\"This is a string quote"
     + " that has been concatenated.\"");                  //the + operator is used to concatenate strings in JS
 
 document.write(6 + 6)                                     //example of an expression
+
