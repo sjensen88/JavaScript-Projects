@@ -35,7 +35,10 @@ function boolean_Function() {
 function simple_Function() {
     let num = 16;
     let sqrt = Math.sqrt(num);
-    console.log(sqrt);
+    document.getElementById("Test7").innerHTML = console.log(sqrt);
 }
 
+document.write(10 == 10);
 
+
+document.write(5 > 2 && 4 > 10)
