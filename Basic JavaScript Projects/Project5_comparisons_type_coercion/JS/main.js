@@ -2,8 +2,8 @@ document.write("10" + 5);
     typeof(10);                        //typeof operator converts the string "10" to a number
 
 
-document.write("24" + 5);
-    typeof("The answer is ") + num;    //coercion from number to string
+num = "24" + 5;
+    document.write(typeof(num));        //coercion from number to string
 
 
 function my_Function() {
@@ -41,4 +41,8 @@ function simple_Function() {
 document.write(10 == 10);
 
 
-document.write(5 > 2 && 4 > 10)
+document.write(5 > 2 && 4 > 10);
+
+function not_Function() {
+    document.getElementById("Not").innerHTML = !(20 > 10;)
+}
