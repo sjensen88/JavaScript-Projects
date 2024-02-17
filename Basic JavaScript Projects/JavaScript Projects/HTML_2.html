@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Form</title>
+    <meta charset="UTF-8">
+    <script src="./JavaScript/JavaScript_2.js" defer></script>
+    <link rel="stylesheet" href="./CSS/CSS_1.css">
+</head>
+
+<body>
+
+<h3>Contact Form</h3>
+<div class="contact-form">
+    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+        <label for="fname">First Name:</label><br>
+        <input type="text" name="fname"><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" name="lname"><br>
+        <label for="email">Email Address:</label><br>
+        <input type="text" name="email"><br>
+        <label for="phone">Phone Number:</label><br>
+        <input type="text" name="phone"><br>
+    <div class="submit">
+        <input type="submit" value="Submit">
+    </form>
