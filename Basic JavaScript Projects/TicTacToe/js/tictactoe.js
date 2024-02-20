@@ -80,7 +80,7 @@ function audio(audioURL) {                                                      
 }
 
 function drawWinLine(coordX1, coordY1, coordX2, coordY2) {                          //utilizing HTML canvas to draw win lines
-    const canvas = document.getElementById('win-lines');                            //grabs the HTML canvas element
+    const canvas = document.getElementById("win-lines");                            //grabs the HTML canvas element
     const c = canvas.getContext('2d');                                              //gives us access to methods and properties to use on canvas
     let x1 = coordX1,                                                               //indicates where the start of a lines x axis is
         y1 = coordY1,                                                               //indicates where the start of a lines y axis is
@@ -105,7 +105,7 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2) {                      
         }
         if (x1 <= x2 && y1 >= y2) {
             if (x < x2) { x += 10; }
-            if (y < y2) { y += 10; }
+            if (y > y2) { y -= 10; }
             if (x >= x2 && y <= y2) { cancelAnimationFrame(animationLoop); }
         }
     }
