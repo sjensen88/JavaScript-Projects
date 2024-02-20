@@ -17,11 +17,11 @@ table {
 
 td {
     cursor: pointer;                /*index finger pointing hand*/
-    border: 4px solid rgba(64, 6, 157, .8);  
+    border: 4px solid rgba(225, 219, 37, 0.79);  
     padding: 0px;                   /*removes default padding*/
     width: 200px;
     height: 200px;
-    filter: contrast(3);
+
 }
 
 canvas {
