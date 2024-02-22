@@ -1,0 +1,86 @@
+body {
+    background-color: rgba(161, 28, 0, 0.89);
+    }
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: blanchedalmond;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+    }
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    color: rgba(27, 6, 1, 0.89);
+    }
+
+#menuBG {
+    width: 400px;
+    height: 470px;
+    margin: 10px auto;
+    }
+
+#frmMenu {
+    width: 600px;
+    height: 200px;
+    }   
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    float: right;
+    }
+
+.left {
+    width: 200px;
+    height: 200px;
+    float: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+    }
+
+.center {
+    width: 200px;
+    height: 200px;
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+    }
+
+.right {
+    width: 200px;
+    height: 200px;
+    float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+    }
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    }
+
+#cart {
+    top: 0;
+    margin: 0px auto;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    }
+
+#btnOrder {
+    margin: 10px 0px 0px 100px;
+    width: 100px;
+    height: 40px;
+    display: block;
+    margin: 25px auto;
+    }
