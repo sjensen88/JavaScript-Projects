@@ -10,8 +10,6 @@ This is a repository for small projects I've completed utilizing JavaScript.
 ## Pizza Menu
 This project is a menu used to order pizza with a various selection of toppings. It then takes the input information and calculates a price for the order.
 
-![screenshot of project](/assets/images/pizza.png)
-
 ## Tic-Tac-Toe Game
 This is a classic game of tic-tac-toe.
 
