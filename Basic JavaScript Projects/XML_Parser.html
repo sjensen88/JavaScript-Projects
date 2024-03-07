@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="XML_Example"></p>
+<script>
+
+var XML_Parser, XML_Document;
+
+//creates a text string
+var Car = "<car>" +
+    "<make>Honda</make>" +
+    "<model>Civic Sport</model>" +
+    "<year>2021</year>" +
+    "<color>gray</color>" +
+    "</car>";
+
+//creates an XML DOM parser
+XML_Parser = new DOMParser();
+
+//creates a new XML DOM object using the text string
+XML_Document = XML_Parser.parseFromString(Car,"text/xml");
+
+document.getElementById("XML_Example").innerHTML = 
+XML_Document.getElementsByTagName("year")[0].childNodes[0].nodeValue;
+
+</script>
+
+</body>
+</html>
